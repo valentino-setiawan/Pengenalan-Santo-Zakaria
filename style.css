@@ -102,10 +102,13 @@ p {
 }
 
 @media screen and (max-width: 615px) {
-    nav h1 {
-        scale: 80%;
-        word-wrap:break-word;
-        width: 160px;
-        height: 70px;
+    nav li {
+        scale: 60%;
+        display: inline;
+        padding: 2px;
+    }
+
+    nav {
+        height: 100%;
     }
 }
