@@ -1,0 +1,102 @@
+:root {
+    --Basecol: #f3f3f3;
+    --PrimCol: rgb(170, 0, 255);
+
+}
+
+html, body {
+    margin: 0;
+    background-attachment: var(--Basecol);
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: var(--PrimCol);
+    /* overflow-y: hidden; */
+}
+
+ul {
+    margin-top: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+li h1 {
+    margin: 0;
+}
+
+a:visited, a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    color: gold;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    margin: auto 2rem;
+}
+
+.P1, .P2, .P3 {
+    display: inline;
+}
+
+.P2 {
+    float: right;
+}
+
+img {
+    height: 220px;
+    width: 330px;
+    object-fit: cover;
+    border: solid 2px;
+    border-radius: 6px;
+}
+
+.P1 img {
+    object-position: top;
+    float: left;
+    margin: 0 1rem 0 0;
+}
+
+.P2 img {
+    object-position: top;
+    float: right;
+    margin: 0 0 0 1rem ;
+}
+
+.P2 h2 {
+    text-align: right;
+}
+
+.P3 img {
+    object-position: top;
+    float: left;
+    margin: 0 1rem 10rem 0;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+.SRC {
+    margin-top: 8rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.SRC li {
+    margin: 0;
+}
